@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Tracker
 
-## Getting Started
+A simple pantry tracker app built as a learning project in JavaScript.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Pantry Tracker is a basic web application designed to help you manage and track items in your pantry. This project was created as a way to learn and practice JavaScript concepts such as DOM manipulation, event handling, and using local storage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Add new pantry items with details like name, quantity, and expiry date.
+- Edit and update existing items.
+- Remove items that are used or expire.
+- User-friendly interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone <repository-url>
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   cd Pantry-Tracker
+   ```
 
-## Deploy on Vercel
+3. Open the project in your browser by opening the `index.html` file.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Alternatively, you can serve the project using a static server. For example, with http-server installed:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npx http-server
+   ```
+
+## Usage
+
+- Open the app in your web browser.
+- Use the form to add new items to your pantry.
+- Update or delete items as needed to keep your list current.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## Future Improvements
+
+- Implement search and filtering functionality.
+- Add a backend to store data persistently.
+- Enhance UI/UX with a modern design.
+
+## License
+
+This project is open source and available for use, modification, and distribution. Feel free to fork and modify it as you learn and build on this project.
