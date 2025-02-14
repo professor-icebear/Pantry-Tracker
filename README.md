@@ -18,7 +18,7 @@ The Pantry Tracker is a basic web application designed to help you manage and tr
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/professor-icebear/Pantry-Tracker.git
    ```
 
 2. Navigate to the project directory:
